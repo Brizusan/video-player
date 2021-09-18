@@ -1,0 +1,33 @@
+
+.button{
+    /* border: 10px solid red; */
+    inline-size: 32px;
+    block-size: 32px;
+    border: none;
+    background-color: transparent;
+    background-position: center;
+    cursor: pointer;    
+
+}
+.button:active{
+    transform: scale(.9);
+}
+#play{
+    /* border: 10px solid blue; */
+    background-image: url('../assets/images/play.svg');
+    
+}
+#pause{
+    background-image: url('../assets/images/pause.svg');
+
+}
+#fowdard{
+    background-image: url('../assets/images/+10.svg');
+
+
+}
+#backward{
+    background-image: url('../assets/images/-10.svg');
+
+
+}
